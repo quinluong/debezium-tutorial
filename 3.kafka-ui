@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker run -it --rm --name kafka-ui -p 8080:8080 -e DYNAMIC_CONFIG_ENABLED=true --link kafka:kafka provectuslabs/kafka-ui
+

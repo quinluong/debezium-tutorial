@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker stop mysqlterm watcher connect mysql kafka zookeeper kafka-ui
+
